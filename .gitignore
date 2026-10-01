@@ -1,0 +1,18 @@
+# Python bytecode & cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Large generated synthetic signal data
+data/sample/*.csv
+!data/sample/.gitkeep
+
+# Output files
+output/
+
+# Virtual environments
+.venv/
+venv/
+env/
